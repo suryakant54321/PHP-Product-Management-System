@@ -1,0 +1,37 @@
+#entry{
+	overflow: auto; /* this forces the menu div height */
+	padding-left: 80px; /* left padding, adjust it as you want it. 40px puts it about under "Header" */
+	padding-top: 10px; 
+	}
+	body {
+	background: #E9E4C7 url(pattern.png);
+	}
+ul {
+list-style-type: none;
+background-image: url(navi_bg.png);
+height: 80px;
+width: 1000px;
+margin: auto;
+}
+li {
+float: left;
+}
+ul a {
+background-image: style/navi_bg_divider.png);
+background-repeat: no-repeat;
+background-position: right;
+padding-right: 32px;
+padding-left: 32px;
+display: block;
+line-height: 80px;
+text-decoration: none;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 21px;
+color: #371C1C;
+}
+ul a:hover {
+color: #FFF;
+}
+fieldset {
+border: solid 1px blue;
+}
