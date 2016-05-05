@@ -4,9 +4,8 @@ PHP MySQL based Product Management System.
 
   - PHP based system to manage data product
   - Records updates to keep track of data products
-  - Lightweight client designed in HTML/PHP
+  - Lightweight client designed in HTML and PHP
 
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
 ### Version
 Beta 0.1.0
@@ -64,7 +63,7 @@ A. Database configuration
 - Check tables 
 ```sh
 > use csredataproducts;
-> show tables
+> show tables;
 ```
 
     It will list all tables from csredataproducts.
